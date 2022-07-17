@@ -8,13 +8,13 @@ export default function Card() {
       <section className="card">
           <img src={katie} className="picture" alt="" />
           <div className="rating">
-            <img src={star} alt="" /> 5.0 <span className="greyText">(6) * USA</span>
+            <img src={star} className="starPic" alt="" /> 5.0 <span className="greyText">(6) * USA</span>
           </div>
           <div>
-            <p>Life lessons with Katie Zaferes</p>
+            <p className="cardDes">Life lessons with Katie Zaferes</p>
           </div>
           <div>
-            <p> <span className="boldText">From $136</span> / person</p>
+            <p className="cardLastDes"> <span className="boldText">From $136</span> / person</p>
           </div>
       </section>
     );
