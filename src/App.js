@@ -17,18 +17,9 @@ function App() {
           star={starPic}
           rating="5.0"
           country="(6) • USA"
-          des1="From $136"
-          des2=" / person"
+          price="136"
         />
-        <Card
-          img={katie}
-          cardDes="Life with Katie Zaferes"
-          star={starPic}
-          rating="5.0"
-          country="(6) • USA"
-          des1="From $136"
-          des2=" / person"
-        />
+        
       </div>
     </div>
   );
