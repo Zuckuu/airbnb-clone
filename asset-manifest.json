@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.19c98ed6.css",
+    "main.js": "/static/js/main.e1c5b08a.js",
+    "static/js/787.e8223466.chunk.js": "/static/js/787.e8223466.chunk.js",
+    "static/media/airbnb-photo1.png": "/static/media/airbnb-photo1.84d5fe9e725e2602069c.png",
+    "static/media/red-star.png": "/static/media/red-star.dad6698f00b6f927a9cd.png",
+    "static/media/logos.png": "/static/media/logos.cd0810058f72e920d9d7.png",
+    "index.html": "/index.html",
+    "main.19c98ed6.css.map": "/static/css/main.19c98ed6.css.map",
+    "main.e1c5b08a.js.map": "/static/js/main.e1c5b08a.js.map",
+    "787.e8223466.chunk.js.map": "/static/js/787.e8223466.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19c98ed6.css",
+    "static/js/main.e1c5b08a.js"
+  ]
+}
