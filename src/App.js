@@ -13,7 +13,7 @@ function App() {
       <div className="card-Container">
         <Card
           img={katie}
-          cardDes="Life lessons with Katie Zaferes"
+          cardDes="Life with Katie Zaferes"
           star={starPic}
           rating="5.0"
           viewCount = {6}
@@ -24,7 +24,7 @@ function App() {
           img={katie}
           cardDes="Life with Katie Zaferes"
           star={starPic}
-          rating="4.9"
+          rating="4.0"
           viewCount = {10}
           country="JAPAN"
           price="196"
