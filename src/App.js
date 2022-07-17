@@ -13,13 +13,22 @@ function App() {
       <div className="card-Container">
         <Card
           img={katie}
-          cardDes="Life with Katie Zaferes"
+          cardDes="Life lessons with Katie Zaferes"
           star={starPic}
           rating="5.0"
-          country="(6) • USA"
+          viewCount = {6}
+          country="USA"
           price="136"
         />
-        
+        <Card
+          img={katie}
+          cardDes="Life with Katie Zaferes"
+          star={starPic}
+          rating="4.9"
+          viewCount = {10}
+          country="JAPAN"
+          price="196"
+        />
       </div>
     </div>
   );
