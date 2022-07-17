@@ -24,7 +24,7 @@ function App() {
           img={katie}
           cardDes="Life with Katie Zaferes"
           star={starPic}
-          rating="4.0"
+          rating="4.9"
           viewCount = {10}
           country="JAPAN"
           price="196"
