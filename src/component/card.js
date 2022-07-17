@@ -8,11 +8,11 @@ export default function Card(props) {
       <div className="rating">
         <img src={props.star} className="starPic" alt="" />
         <p className="ratingText">
-          {props.rating} <span className="greyText">({props.viewCount}) • {props.country}</span>
+          {props.rating} <span className="greyText">({props.reviewCount}) • {props.location}</span>
         </p>
       </div>
       <div className="cardDesContainer">
-        <p className="cardDes">{props.cardDes}</p>
+        <p className="cardDes">{props.title}</p>
       </div>
       <div>
         <p className="cardLastDes">
