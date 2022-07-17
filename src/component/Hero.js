@@ -1,5 +1,5 @@
 import "../App.css";
-import grip from "../asset/airbnb-photo.png";
+import grip from "../asset/airbnb-photo1.png";
 
 export default function Hero() {
   return (
