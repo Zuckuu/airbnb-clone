@@ -1,18 +1,16 @@
 import "../App.css";
-import katie from "../asset/Katie-Zaferes-pic.jpg"
-import star from "../asset/red-star.png"
 
 
-export default function Card() {
+export default function Card(props) {
     return (
       <section className="card">
-          <img src={katie} className="picture" alt="" />
+          <img src={props.img} className="picture" alt="" />
           <div className="rating">
-            <img src={star} className="starPic" alt="" /> 
+            <img src={props.star} className="starPic" alt="" /> 
             <p className="ratingText">5.0 <span className="greyText">(6) • USA</span></p>
           </div>
           <div className="cardDesContainer">
-            <p className="cardDes">Life lessons with Katie Zaferes</p>
+            <p className="cardDes">{props.cardDes}</p>
           </div>
           <div>
             <p className="cardLastDes"> <span className="boldText">From $136</span> / person</p>
