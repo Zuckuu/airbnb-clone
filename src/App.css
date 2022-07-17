@@ -79,3 +79,7 @@ section{
   align-items: center;
   text-align: center;
 }
+
+.card-Container{
+  display: flex;
+}

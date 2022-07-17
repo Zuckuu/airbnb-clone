@@ -1,4 +1,5 @@
 import "../App.css";
+//import star from "../asset/red-star.png"
 
 
 export default function Card(props) {
@@ -7,13 +8,13 @@ export default function Card(props) {
           <img src={props.img} className="picture" alt="" />
           <div className="rating">
             <img src={props.star} className="starPic" alt="" /> 
-            <p className="ratingText">5.0 <span className="greyText">(6) • USA</span></p>
+            <p className="ratingText">{props.rating} <span className="greyText">{props.country}</span></p>
           </div>
           <div className="cardDesContainer">
             <p className="cardDes">{props.cardDes}</p>
           </div>
           <div>
-            <p className="cardLastDes"> <span className="boldText">From $136</span> / person</p>
+            <p className="cardLastDes"> <span className="boldText">{props.des1}</span>{props.des2}</p>
           </div>
       </section>
     );
