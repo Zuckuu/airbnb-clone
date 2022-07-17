@@ -4,7 +4,7 @@ import Hero from "./component/Hero";
 import Card from "./component/Card";
 import starPic from "./asset/red-star.png";
 import data from "./data.js"
-console.log(data)
+//console.log(data)
 
 function App() {
   const cards = data.map((item)=>{
@@ -17,6 +17,7 @@ function App() {
           location = {item.location}
           reviewCount={item.stats.reviewCount}
           price={item.price}
+          openSpots = {item.openSpots}
         />
     )
   })

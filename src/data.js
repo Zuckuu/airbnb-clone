@@ -25,7 +25,7 @@ export default [
       reviewCount: 30,
     },
     location: "Online",
-    openSpots: 0,
+    openSpots: 2,
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ export default [
       reviewCount: 30,
     },
     location: "Online",
-    openSpots: 0,
+    openSpots: 4,
   },
   {
     id: 1,
@@ -67,7 +67,7 @@ export default [
       reviewCount: 30,
     },
     location: "Online",
-    openSpots: 0,
+    openSpots: 3,
   },
   {
     id: 2,
@@ -81,6 +81,6 @@ export default [
       reviewCount: 30,
     },
     location: "Online",
-    openSpots: 0,
+    openSpots: 4,
   }
 ];
