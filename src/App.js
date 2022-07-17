@@ -13,9 +13,9 @@ function App() {
       <div className="card-Container">
         <Card
           img={katie}
-          cardDes="Life with Katie Zaferes"
+          cardDes="Life lessons with Katie Zaferes"
           star={starPic}
-          rating="5.0"
+          rating="5.0 "
           viewCount = {6}
           country="USA"
           price="136"
